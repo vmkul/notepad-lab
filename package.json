@@ -1,0 +1,28 @@
+{
+  "name": "notepad-lab",
+  "version": "1.0.0",
+  "description": "Client dev lab 2",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmkul/notepad-lab.git"
+  },
+  "author": "vmkul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmkul/notepad-lab/issues"
+  },
+  "homepage": "https://github.com/vmkul/notepad-lab#readme",
+  "dependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
