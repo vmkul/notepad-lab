@@ -11,15 +11,12 @@ button {
 }
 
 #note-selector {
-  margin-top: 20px;
-  height: 80vh;
+  height: 94vh;
   overflow-y: scroll;
 }
 
 .note-element {
   border: 1px solid black;
-  transition-duration: 250ms;
-  transition-timing-function: ease-in;
 }
 
 .selected {
@@ -28,4 +25,7 @@ button {
 
 ul {
   list-style: none;
+}
+
+.card {
 }
