@@ -6,7 +6,8 @@
     },
     "extends": "eslint:recommended",
     "parserOptions": {
-      "ecmaVersion": 2020
+      "ecmaVersion": 2020,
+      "sourceType": "module"
     },
     "rules": {
       "indent": [
@@ -34,10 +35,6 @@
       ],
       "camelcase": [
         "error"
-      ],
-      "eqeqeq": [
-        "error",
-        "always"
       ],
       "strict": [
         "error",

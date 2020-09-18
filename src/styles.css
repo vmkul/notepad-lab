@@ -22,10 +22,6 @@ button {
   transition-timing-function: ease-in;
 }
 
-.note-element:hover {
-  box-shadow: 10px 10px 10px beige;
-}
-
 .selected {
   background-color: beige;
 }
