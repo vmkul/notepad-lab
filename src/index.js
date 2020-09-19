@@ -82,7 +82,7 @@ const updateList = selected => {
 };
 
 const newHandler = createNew => {
-  queryString = queryString.replace(/%20/gi, ' ');
+  queryString = decodeURI(queryString);
   const date = new Date();
   const dateString = `${date.toLocaleTimeString()} \
   ${date.toLocaleDateString()}`;
@@ -128,7 +128,7 @@ const delHandler = () => {
   setDefault();
 };
 
-queryString = queryString.replace(/%20/gi, ' ');
+queryString = decodeURI(queryString);
 updateList(queryString);
 
 newButton.onclick = newHandler.bind(null, true);
